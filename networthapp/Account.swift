@@ -8,7 +8,8 @@
 import Foundation
 
 
-struct Account: Codable, Hashable {
+struct Account: Codable, Hashable, Identifiable {
+    let id: Int
     let name: String
     let category: String
     let description: String
