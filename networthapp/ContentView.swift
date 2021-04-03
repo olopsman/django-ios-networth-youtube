@@ -15,10 +15,14 @@ struct ContentView: View {
             List {
                 ForEach(accounts) {item in
                     HStack {
-                        Image(systemName: "banknote").foregroundColor(.green)
-                        Text(item.name)
-                        Spacer()
-                        Text("\(item.balance)")
+                        NavigationLink(
+                            destination: AccountDetailView(account: item)) {
+                            Image(systemName: "banknote").foregroundColor(.green)
+                            Text(item.name)
+                            Spacer()
+                            Text("\(item.balance)")
+                        }
+                        
                     }
                 }
                 

@@ -14,6 +14,7 @@
 		BE0D3E842600CB380057DF16 /* networthappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0D3E832600CB380057DF16 /* networthappTests.swift */; };
 		BE0D3E8F2600CB380057DF16 /* networthappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0D3E8E2600CB380057DF16 /* networthappUITests.swift */; };
 		BE0D3EA02600CB5B0057DF16 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0D3E9F2600CB5B0057DF16 /* Account.swift */; };
+		BE4A055626133EB60086AF39 /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4A055526133EB60086AF39 /* AccountDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BE0D3E8E2600CB380057DF16 /* networthappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networthappUITests.swift; sourceTree = "<group>"; };
 		BE0D3E902600CB380057DF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE0D3E9F2600CB5B0057DF16 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		BE4A055526133EB60086AF39 /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BE0D3E712600CB360057DF16 /* networthappApp.swift */,
 				BE0D3E732600CB360057DF16 /* ContentView.swift */,
+				BE4A055526133EB60086AF39 /* AccountDetailView.swift */,
 				BE0D3E9F2600CB5B0057DF16 /* Account.swift */,
 				BE0D3E752600CB380057DF16 /* Assets.xcassets */,
 				BE0D3E7A2600CB380057DF16 /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE0D3E742600CB360057DF16 /* ContentView.swift in Sources */,
+				BE4A055626133EB60086AF39 /* AccountDetailView.swift in Sources */,
 				BE0D3E722600CB360057DF16 /* networthappApp.swift in Sources */,
 				BE0D3EA02600CB5B0057DF16 /* Account.swift in Sources */,
 			);
