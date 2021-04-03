@@ -10,10 +10,10 @@ import Foundation
 
 struct Account: Codable, Hashable, Identifiable {
     let id: Int
-    let name: String
-    let category: String
-    let description: String
-    let wealth_type: String
-    let balance: Int
-    let created_at: String
+    var name: String
+    var category: String
+    var description: String
+    var wealth_type: String
+    var balance: Int
+    var created_at: String
 }

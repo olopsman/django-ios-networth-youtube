@@ -11,6 +11,7 @@ struct AccountDetailView: View {
     @Environment(\.presentationMode) var presentationMode
     
     @State var account: Account
+    @State var showEdit = false
     
     var body: some View {
         List {
@@ -34,7 +35,14 @@ struct AccountDetailView: View {
                     
                 })
             }
-        }
+        }.listStyle(GroupedListStyle())
+        .navigationTitle(account.name)
+        .navigationBarItems(trailing: Button(action: {self.showEdit.toggle()}, label: {
+            Text("Edit")
+                .sheet(isPresented: $showEdit, content: {
+                    EditView(account: $account)
+                })
+        }))
         
     }
     
